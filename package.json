@@ -1,0 +1,18 @@
+{
+  "name": "7.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --browser chrome",
+    "edge": "npx cypress open --browser edge",
+    "env": "npx cypress open --config-file cypress.env.config.js ",
+    "headless": "npx cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  }
+}
